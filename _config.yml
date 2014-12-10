@@ -1,7 +1,7 @@
 name: "Jekyll"
 description: "Jekyll Introductory Project"
 
-url: "http://jcdelfinado.github.io/tobspa-site"
+baseurl: "/tobspa-site"
 
 paginate: 10
 
