@@ -1,0 +1,14 @@
+<div class="row-inverse row-index">
+	<div class="container horizontal-centered">
+		<h2>What we do</h2>
+		{% for activity in site.categories.activities limit: 3 %}
+			<div class="col-sm-3 index-row-item">
+				<div class="panel-hollow">
+					<h4>{{activity.title}}</h4>
+				</div>
+				<p>{{ activity.description }}</p>
+				<a class="btn btn-hollow-inverse btn-sm" href="{{ activity.url }}">Read More</a>
+			</div>
+		{% endfor %}
+	</div>
+</div>

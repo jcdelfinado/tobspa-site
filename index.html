@@ -1,24 +1,15 @@
 ---
-title: The Ten Outstanding Boy Scouts of the Philippines
+title: The Ten Outstanding Boy Scouts of the Philippines Association
 layout: default
 ---
-<div class="row">
-	<h1>Welcome to the Association of Outstanding Scouts</h1>
-	<h3>{{ page.title }}</h3>
-</div>
+<header class="jumbotron jumbotron-inverse bg-primary">
+	<div class="container">
+		<h2>Welcome to the Association of Outstanding Scouts</h2>
+		<h3>{{ page.title }}</h3>
+	</div>
+</header>
+{% include nav.html %}
+{% include who-we-are.html %}
+{% include what-we-do.html %}
+{% include updates.html %}
 
-<p>Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.</p>
-
-<p>Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna.</p>
-
-
-<div class="row">
-	<h2>Latest</h2>
-	{% for post in site.posts limit: 10%}
-		<div class="col-md-6">
-			<h4>{{ post.title }}</h4>
-			<h4><small>{{ post.date | date_to_long_string }}</small></h4>
-			<a href="{{ post.url }}">Read More</a>
-		</div>
-	{% endfor %}
-</div>
