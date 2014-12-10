@@ -1,7 +1,7 @@
 ---
-title: TOBSPA Award for Community Service
+title: Gawad TOBSPA
 layout: post
-category: activities
+category: projects
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id mauris felis. Nam maximus blandit magna, vitae sodales sem euismod ut. Sed aliquam odio lacus, in congue dolor faucibus ut. 
 ---
 

@@ -1,12 +1,9 @@
 <div class="container">
 	<h3>Updates</h3>
 	{% for post in site.categories.updates limit: 3 %}
-		<div class="col-md-4">
-			<div class="update">
-				<h4>{{ post.title }}</h4>
-				<h4><small>{{ post.date | date_to_long_string }}</small></h4>
-				<a class="btn btn-hollow btn-sm" href="{{ post.url }}">Read More</a>
-			</div>
+		<div class="update">
+			<h5>{{ post.title }}<small> | {{ post.date | date_to_long_string }}</small></h5>
+			<a class="btn btn-hollow btn-sm" href="{{ post.url }}">Read More</a>
 		</div>
 	{% endfor %}
 </div>

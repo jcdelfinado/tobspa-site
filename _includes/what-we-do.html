@@ -1,8 +1,8 @@
-<div class="row-inverse row-index">
-	<div class="container horizontal-centered">
+<div class="row-inverse row-index horizontal-centered">
+	<div class="container">
 		<h2>What we do</h2>
-		{% for activity in site.categories.activities limit: 3 %}
-			<div class="col-sm-3 index-row-item">
+		{% for activity in site.categories.projects limit: 3 %}
+			<div class="col-sm-4 index-row-item">
 				<div class="panel-hollow">
 					<h4>{{activity.title}}</h4>
 				</div>
@@ -11,4 +11,5 @@
 			</div>
 		{% endfor %}
 	</div>
+	<a class="btn btn-hollow-inverse" href="/projects">More Projects Here</a>
 </div>

@@ -3,6 +3,10 @@
 	margin-bottom: 0
 }
 
+.navbar-fixed-top {
+	background-color: rgba(2, 117, 9, 0.5);
+}
+
 header.jumbotron-inverse {
 	background-color: #027509;
 }
@@ -12,7 +16,7 @@ header.jumbotron-inverse {
 }
 
 .row-index {
-	padding: 14px 18px 14px 18px;
+	padding: 14px 18px 32px 18px;
 }
 
 .row-inverse {
