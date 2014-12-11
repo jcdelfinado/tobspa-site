@@ -2,6 +2,7 @@
 title: TOBSPA sponsors Payatas scouts
 layout: post
 category: updates
+summary: TOBSPA members contributed to fund the BSP registration fees and neckerchiefs of Scouts from Lupang Pangako Elementary School in Payatas, Quezon City.
 ---
 
 TOBSPA members contributed to fund the BSP registration fees and neckerchiefs of Scouts from Lupang Pangako Elementary School in Payatas, Quezon City.

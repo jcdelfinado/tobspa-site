@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>{{ site.name }}</title>
 		<link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
 		<link href="{{ site.baseurl }}/css/bootstrap-additional.css" rel="stylesheet">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -9,6 +10,7 @@
 		<![endif]-->
 	</head>
 	<body>
+		{% include header.html %}
 		{% include nav.html %}
 		<div class="container">
 			{{ content }}

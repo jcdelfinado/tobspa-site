@@ -2,6 +2,7 @@
 title: TOBSPA welcomes, inducts 2012 TOBS Awardees
 layout: post
 category: updates
+summary: TOBSPA officially welcomed the 2012 awardees of the nationwide Search for the Ten Outstanding Boy Scouts of the Philippines as the newest members of the Association during its General Assembly on October 1, 2012 at the Boy Scouts of the Philippines National Executive Board Room.
 ---
 
 TOBSPA officially welcomed the 2012 awardees of the nationwide Search for the Ten Outstanding Boy Scouts of the Philippines as the newest members of the Association during its General Assembly on October 1, 2012 at the Boy Scouts of the Philippines National Executive Board Room. 
