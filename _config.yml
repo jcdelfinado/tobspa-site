@@ -2,8 +2,13 @@ name: "Ten Outstanding Boy Scouts of the Philippines Association"
 description: "Jekyll Introductory Project"
 
 baseurl: "/tobspa-site"
+assets: "/assets"
 
 paginate: 10
 
 markdown: rdiscount
 permalink: /:categories/:title
+
+collections: 
+ batches:
+  output: true

@@ -1,0 +1,12 @@
+<div class="media">
+	<div class="media-left media-middle">
+		<img class="batch-pic" src="{{ site.baseurl }}{{ site.assets }}/images/batches/{{ page.photo }}">
+	</div>
+	<div class="media-body">
+		<ol>
+			{% for awardee in page.awardees %}
+				<li>{{ awardee.name }} ({{ awardee.council }})</li>
+			{% endfor %}
+		</ol>
+	</div>
+</div>

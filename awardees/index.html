@@ -1,0 +1,23 @@
+---
+title: TOBS Awardees
+layout: default
+---
+<br>
+<div class="col-md-2">
+	<ul class="nav nav-scroll">
+		<li><h4>Batch Quick Links</h4></li>
+		{% for batch in site.batches %}
+			<li><a href="#{{ batch.year }}">{{ batch.year }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
+<div class="col-md-10">
+	<h1>The TOBS Search</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac tincidunt nunc. Proin mollis leo a nibh congue vehicula ut eget augue. Nunc sed semper dolor. In vel egestas sem. Nulla sed dolor laoreet, porta arcu vel, tristique diam. Proin fringilla risus vel libero feugiat, nec viverra lorem ultrices. Aenean vestibulum nulla et sem posuere, ut tincidunt odio blandit. Aliquam eleifend blandit nisi, eget viverra ex facilisis at. Nam nec ex diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam justo sem, consequat a egestas quis, luctus vitae magna. Aliquam quis ipsum a lorem iaculis euismod.</p>
+	{% for batch in site.batches %}
+		<h1 id="{{ batch.year }}">{{ batch.year }}</h1>
+		{{ batch.output }}
+	{% endfor %}
+</div>
+<h4 style="text-align: center">This page is still under construction</h4>
+<h4 style="text-align: center">More batch details coming soon</h4>
