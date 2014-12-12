@@ -10,4 +10,5 @@ $(document).ready(function (){
             $('nav').removeClass("navbar-fixed-top");
         }
     });
+    $('.carousel').carousel();
 });

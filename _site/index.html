@@ -1,9 +1,10 @@
 <html>
 	<head>
-		<title>Ten Outstanding Boy Scouts of the Philippines Association</title>
+		<title>TOBSPA</title>
 		<link href="/tobspa-site/css/bootstrap.css" rel="stylesheet">
 		<link href="/tobspa-site/css/bootstrap-additional.css" rel="stylesheet">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="/tobspa-site/images/favicon.ico">
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,31 +13,47 @@
 	<body>
 		<header class="jumbotron jumbotron-inverse">
 	<div class="container">
-		<h1>Ten Outstanding Boy Scouts <br/>of the Philippines Association</h1>
-		<h3>The Association of Outstanding Scouts</h3>
+		<div class="media">
+			<div class="media-left media-middle">
+				<img src="/tobspa-site/images/tobspa-200px.png">
+			</div>
+			<div class="media-body">
+				<h1>Ten Outstanding Boy Scouts <br/>of the Philippines Association</h1>
+				<h2><i>The Association of Outstanding Scouts</small></i></h2>
+			</div>
+		</div>
 	</div>
 </header>
 <nav class="navbar navbar-default" role="navigation">
 <div class="container">   
-    
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="/tobspa-site/">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Updates</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="/tobspa-site/about">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="fa fa-facebook fa-lg" href="http://facebook.com"><i ></i></a></li>
-        <li><a class="fa fa-twitter fa-lg" href="http://twitter.com"><i ></i></a></li>
-        <li><a class="fa fa-instagram fa-lg" href="http://instagram.com"><i ></i></a></li>
-      </ul>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navlinks">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div id="navlinks" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="/tobspa-site/">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Updates</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="/tobspa-site/about">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="fa fa-facebook fa-lg" href="http://facebook.com"><i ></i></a></li>
+            <li><a class="fa fa-twitter fa-lg" href="http://twitter.com"><i ></i></a></li>
+            <li><a class="fa fa-instagram fa-lg" href="http://instagram.com"><i ></i></a></li>
+        </ul>
+    </div>
 </div><!-- /.container-fluid -->
 </nav>
 
-<content>	
-	<div class="row-image desaturated row-index" style="background-image: url('/tobspa-site/images/bg1.jpg')">
+<content>
+	<div class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active">
+				<div class="row-image desaturated row-index" style="background-image: url('/tobspa-site/images/bg1.jpg')">
 	<div class="container">
 		<div class="col-sm-6">
 			<h2>The Association</h2>
@@ -46,7 +63,9 @@
 		</div>
 	</div>
 </div>
-	<div class="row-inverse row-index horizontal-centered">
+			</div>
+			<div class="item">
+				<div class="row-inverse row-index horizontal-centered">
 	<div class="container">
 		<h2>Our Projects</h2>
 		
@@ -75,8 +94,19 @@
 			</div>
 		
 	</div>
-	<a class="btn btn-hollow-inverse" href="/tobspa-site/projects">More Projects Here</a>
+	<!-- <a class="btn btn-hollow-inverse" href="/tobspa-site/projects">More Projects Here</a> -->
 </div>
+			</div>
+		</div>
+		<a class="left carousel-control" href=".carousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href=".carousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
 	<div class="container">
 	<h3>Updates</h3>
 	

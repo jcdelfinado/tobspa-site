@@ -1,3 +1,29 @@
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition: opacity 3s;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 1;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+.carousel-control,  .carousel-control.left, .carousel-control.right{
+	width: 5%;
+	background-image: none;
+}
+
 .jumbotron-inverse {
 	color: #FFF;
 	margin-bottom: 0
@@ -55,7 +81,7 @@ header.jumbotron-inverse {
 .row-image {
 	color: #FFF;
 	min-height: 360px;
-	background-size: 100%;
+	background-size: 100% auto;
 	padding-top: 36px;
 }
 
