@@ -10,5 +10,7 @@ markdown: rdiscount
 permalink: /:categories/:title
 
 collections: 
- batches:
-  output: true
+    batches:
+        output: true
+    projects:
+        output: true

@@ -1,6 +1,6 @@
 ---
 title: Social Accountability Module
-layout: post
+layout: contained_page
 category: projects
 description: The SAc module is a pioneering activity as the basics of social accountability are attempted to be presented in a different way, as in a jamboree setting consistent with the principle of "learning by doing"
 ---

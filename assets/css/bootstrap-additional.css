@@ -2,6 +2,14 @@
 	height: 200px;
 }
 
+figure {
+	margin-bottom: 15px;
+}
+
+body {
+	margin: 0;
+}
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition: opacity 3s;

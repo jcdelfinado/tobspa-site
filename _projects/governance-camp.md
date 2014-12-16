@@ -1,6 +1,6 @@
 ---
 title: Governance Camp
-layout: post
+layout: contained_page
 category: projects
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id mauris felis. Nam maximus blandit magna, vitae sodales sem euismod ut. Sed aliquam odio lacus, in congue dolor faucibus ut. 
 ---

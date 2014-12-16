@@ -1,0 +1,24 @@
+---
+title: Updates
+layout: contained_page
+---
+<div class="update col-md-8	">
+{% for post in site.categories.updates limit: 7 %}
+	<h2>{{ post.title }}</h2>
+	<div class="media">
+		{% if post.featured_img %}
+			<div class="media-left">
+				<img src="{{site.baseurl}}{{ site.assets }}{{ post.featured_img }}" height="200px">
+			</div>
+		{% endif %}
+		<div class="media-body">
+			<p class="muted">{{ post.date | date_to_long_string }}</p>
+			<p>{{ post.summary }}</p>
+			<a class="btn btn-hollow btn-sm" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+		</div>
+	</div>
+{% endfor %}
+</div>
+<div class="col-md-4">
+	{% include sidebar.html %}
+</div>

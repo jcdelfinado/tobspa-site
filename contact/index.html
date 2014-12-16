@@ -1,0 +1,58 @@
+---
+title: Contact Us
+layout: default
+location:
+    address: Boy Scouts of the Philippines - Headquarters, Natividad Almeda-Lopez, Manila, Metro Manila
+    latitude: 14.590568
+    longitude: 120.983397
+---
+<div class="container">
+	<div class="row">
+		<h1>Get in touch with us</h1>
+		<div class="col-md-6">
+			<h3>We're social</h3>
+			<ul class="social-links">
+				<li><a href="http://facebook.com/tobspa"><span class="fa fa-facebook fa-2x"></span></a></li>
+				<li><a href="http://twitter.com/tobspa"><span class="fa fa-twitter fa-2x"></span></a></li>
+				<li><a href="http://instagram.com"><span class="fa fa-instagram fa-2x"></span></a></li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h3>You can send us an email</h3>
+		</div>
+		<div class="col-md-12">
+			<h1>Where to find us</h1>
+			<address>
+				<strong>Boy Scouts of the Philippines - Headquarters</strong><br>
+				181 Natividad Almeda-Lopez Street<br>
+				Ermita, Manila 1000<br>
+				Philippines
+			</address>
+		</div>
+	</div>
+</div>
+<div id="map" style="width:100%; height:380px;"></div>
+
+<script src="{{ site.baseurl }}{{ site.assets }}/js/jquery.min.js" type="text/javascript"></script>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		function initialize() {
+		var mapProp = {
+			center:new google.maps.LatLng(14.590568,120.983397),
+			zoom:16,
+			mapTypeId:google.maps.MapTypeId.ROADMAP,
+			disableDefaultUI: true
+		};
+		var map=new google.maps.Map(document.getElementById("map"), mapProp);
+		var marker=new google.maps.Marker({
+			position:new google.maps.LatLng(14.590568,120.983397),
+			//animation:google.maps.Animation.BOUNCE,
+			//icon: '{{ site.baseurl }}{{ site.assets }}/images/tobspa-200px.png'
+		});
+
+		marker.setMap(map);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	});
+</script>

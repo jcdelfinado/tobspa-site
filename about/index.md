@@ -1,6 +1,6 @@
 ---
 title: About Us
-layout: default
+layout: contained_page
 ---
 ##Background
 
